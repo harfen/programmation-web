@@ -54,8 +54,8 @@ CREATE TABLE IF NOT EXISTS `answer_like` (
 
 
 REPLACE INTO `user` (`id_user`, `pseudo`, `password`) VALUES
-	(1, 'pseudo1', 'xxx'),
-	(2, 'mallier', '27032204');
+	(1, 'feniza', 'xxx'),
+	(2, 'guillaume', '27032204');
 
 REPLACE INTO `post` (`id_post`, `id_user`, `title`, `post_text`, `post_date`) VALUES
 	(1, 1, 'Titre du post de test', 'Ceci est le texte du post de test', '2022-04-11 16:33:08');
